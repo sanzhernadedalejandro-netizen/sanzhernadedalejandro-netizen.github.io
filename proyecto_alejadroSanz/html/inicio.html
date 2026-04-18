@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto Roll - Inicio Sesión</title>
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/inicioSesion.js"></script>
+  <link rel="stylesheet" href="../css/estilosRS.css">
+</head>
+<body>
+
+  <header>
+    <a href="../index.html" class="header-title">⚔ PROYECTO ROLL</a>
+    <nav>
+      <ul>
+        <li><a href="registro.html">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="card-center">
+    <div class="card">
+
+      <p class="eyebrow">Bienvenido</p>
+      <h1 class="page-title">Iniciar sesión</h1>
+      <p class="page-subtitle">Entra a tu cuenta para continuar tu aventura</p>
+      <div class="divider-h"></div>
+
+      <div class="field">
+        <label class="field-label" for="usuario">Nombre</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Tu nombre de aventurero...">
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="············">
+      </div>
+
+      <p id="errorLogin" class="error-msg"></p>
+
+      <button type="button" id="boton" class="btn-primary">
+        INICIAR SESIÓN
+      </button>
+
+      <p class="card-link">
+        ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
+      </p>
+
+    </div>
+  </div>
+
+</body>
+</html>
