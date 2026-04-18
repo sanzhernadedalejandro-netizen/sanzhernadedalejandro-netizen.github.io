@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto Roll - Registro</title>
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/rejistro.js"></script>
+  <link rel="stylesheet" href="../css/estilosRS.css">
+</head>
+<body>
+
+  <header>
+    <a href="../index.html" class="header-title">⚔ RollPlay</a>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="card-center">
+    <div class="card">
+
+      <p class="eyebrow">Únete</p>
+      <h1 class="page-title">Crear cuenta</h1>
+      <p class="page-subtitle">Regístrate para empezar tu aventura</p>
+      <div class="divider-h"></div>
+
+      <div class="field">
+        <label class="field-label" for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre de aventurero...">
+        <span id="errorUsuario" class="field-error"></span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="tu@email.com">
+        <span id="errorEmail" class="field-error"></span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="············">
+        <span id="errorContrasena" class="field-error"></span>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="vcontrasena">Verificar contraseña</label>
+        <input type="password" id="vcontrasena" name="vcontrasena" placeholder="············">
+        <span id="errorVerificarContrasena" class="field-error"></span>
+      </div>
+
+      <button type="button" id="boton" class="btn-primary">
+        REGISTRARSE
+      </button>
+
+      <p class="card-link">
+        ¿Ya tienes cuenta? <a href="inicio.html">Inicia sesión</a>
+      </p>
+
+    </div>
+  </div>
+
+</body>
+</html>
